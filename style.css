@@ -8,3 +8,151 @@ button,
 input {
   font: inherit;
 }
+
+h1 {
+  font-size: 35px;
+}
+
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* create design */
+.create,
+.edit {
+  padding: 1rem 0;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2rem;
+  background-color: #087e8b;
+}
+
+.create *,
+.edit * {
+  margin: 0.5rem 0;
+  padding: 0.2rem 0.6em;
+  border: none;
+  border-radius: 10px;
+  color: #3c3c3c;
+}
+
+#name,
+#text {
+  background-color: #41cadab4;
+}
+
+#name,
+#text,
+.nameU,
+.textU {
+  padding: 0.2rem 0.5em;
+}
+
+#name,
+.nameU {
+  width: 22em;
+}
+
+#text,
+.textU {
+  display: block;
+  margin: 0 auto;
+}
+
+#post {
+  background-color: #0ac8ddb4;
+}
+
+#post:active {
+  background-color: #0ac8dd;
+}
+
+/* message design */
+.body {
+  text-align: center;
+  margin: 0 6rem;
+}
+
+.body * {
+  margin: 1rem;
+}
+
+.message {
+  padding: 0.5rem 0;
+  background-color: #c1839f;
+  border-radius: 2rem;
+}
+
+.message * {
+  margin: 0.5rem 0;
+  padding: 0.2rem;
+}
+
+#update {
+  background-color: #e6a9a99a;
+}
+
+#delete {
+  background-color: #ff5a60a9;
+}
+
+#delete:active {
+  background-color: #ff5a5f;
+}
+
+#update:active {
+  background-color: #e6a9a9;
+}
+
+#update,
+#delete {
+  margin-left: 0.8rem;
+  padding: 0.4rem 0.5em;
+  border-radius: 10px;
+  border: none;
+}
+
+.edit {
+  border-radius: 2rem;
+  background-color: #c1839f;
+}
+
+.edit * {
+  color: black;
+}
+
+.nameU,
+.textU {
+  background-color: #dbbcca;
+  margin: 0.5rem auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.halite {
+  position: absolute;
+  top: -20px;
+  width: 100%;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.halite1 {
+  position: absolute;
+  top: 2px;
+  width: 100%;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.createmsg {
+  display: block;
+  color: rgb(0, 46, 0);
+  background-color: rgba(0, 128, 0, 0.575);
+  text-align: center;
+  max-width: 30%;
+  margin-left: 35%;
+}

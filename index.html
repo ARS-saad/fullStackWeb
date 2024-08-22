@@ -3,9 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Car Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>CRUD operation</title>
   </head>
   <body>
-    <h1>Hi there</h1>
+    <section>
+      <p id="pc" class="hidden halite createmsg">Server is updated!!!</p>
+    </section>
+    <section class="create">
+      <h1>Create a Message</h1>
+      <input type="text" placeholder="Name" id="name" />
+      <textarea
+        id="text"
+        name="text"
+        rows="5"
+        cols="45"
+        placeholder="text Message"
+      ></textarea>
+      <button id="post" class="btn" onclick="createMess()">CREATE</button>
+    </section>
+    <section id="bodes" class="body">
+      <h1>MESSAGE</h1>
+    </section>
+    <script src="./lib/script.js"></script>
   </body>
 </html>
